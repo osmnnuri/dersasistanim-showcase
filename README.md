@@ -39,7 +39,7 @@
 
 ## Neden?
 
-Ortaokul öğrencileri için ders çalışmanın en zor kısmı çoğu zaman **başlamak** ve **devam ettirmektir**. DersAsistanım baskı kurmadan, küçük adımlarla çalışmaya yönlendirir:
+Ortaöğretim öğrencileri için ders çalışmanın en zor kısmı çoğu zaman **başlamak** ve **devam ettirmektir**. DersAsistanım baskı kurmadan, küçük adımlarla çalışmaya yönlendirir:
 
 - 🐱 Öğrenciyle konuşan, ruh haline göre değişen bir **maskot arkadaş**
 - 🗓️ Okul ders programına göre kendiliğinden hazırlanan **haftalık plan**
