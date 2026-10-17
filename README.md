@@ -31,7 +31,6 @@
 - [Bildirimler](#bildirimler)
 - [Mimari](#mimari)
 - [Gizlilik ve veri](#gizlilik-ve-veri)
-- [Kurulum (kullanıcı)](#kurulum-kullanıcı)
 - [Kullanılan teknolojiler](#kullanılan-teknolojiler)
 - [Kalite](#kalite)
 - [Yol haritası](#yol-haritası)
@@ -170,19 +169,6 @@ ui/        ekranlar
 - 🚫 Hiçbir veri üçüncü taraflara ya da geliştiriciye gönderilmez. Analitik veya reklam yoktur.
 - 💾 Cihaz değiştirmek için yedek dosyası alınıp yeni cihazda geri yüklenir.
 - 🧭 İleride hesap ve senkronizasyon eklenirse kullanılacak bulut şeması (Postgres/Supabase, satır düzeyi güvenlik) **tasarlandı ama uygulanmadı**. Çocuk verisi olduğu için KVKK, veli onayı ve "verilerimi sil" akışı şart olarak planlandı.
-
-## Kurulum (kullanıcı)
-
-**iPhone / iPad**
-1. Safari'de [dersasistanim.vercel.app](https://dersasistanim.vercel.app) adresini aç.
-2. **Paylaş** → **Ana Ekrana Ekle**.
-3. Ana ekrandaki simgeden aç. Uygulama artık internetsiz de çalışır.
-
-**Android / bilgisayar**
-1. Chrome ya da Edge ile adresi aç.
-2. Menüden **Uygulamayı yükle** / **Ana ekrana ekle**.
-
-> Bildirimler iPhone'da yalnızca ana ekrana eklenmiş uygulamada çalışır (iOS 16.4+).
 
 ## Kullanılan teknolojiler
 
