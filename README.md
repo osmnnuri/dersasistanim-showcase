@@ -15,10 +15,10 @@
 </p>
 
 <p align="center">
-  <a href="https://dersasistanim.vercel.app"><b>Uygulamayı dene →</b></a>
+  <a href="https://dersasistanim.vercel.app"><b>▶ Uygulamayı aç</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://osmnnuri.github.io"><b>Güncel görseller için siteme göz at</b></a>
 </p>
-
-> Bu depo bir **vitrindir**: projenin bugünkü halini anlatır. Kaynak kod ayrı ve gizli bir depoda geliştirilmektedir.
 
 ---
 
@@ -34,6 +34,7 @@
 - [Kullanılan teknolojiler](#kullanılan-teknolojiler)
 - [Kalite](#kalite)
 - [Yol haritası](#yol-haritası)
+- [İletişim](#i̇letişim)
 
 ---
 
@@ -203,8 +204,10 @@ ui/        ekranlar
 - [ ] Veli görünümü (haftalık özet)
 - [ ] Android / iOS mağaza uygulaması
 
----
+## Kaynak kod
 
-<p align="center">
-  Türkiye'deki öğrenciler için 🇹🇷 sevgiyle geliştirildi.
-</p>
+Kaynak kod özel bir depoda tutuluyor; inceleme için talep üzerine paylaşılabilir.
+
+## İletişim
+
+**osmnnuri** · [Web sitesi](https://osmnnuri.github.io) · [GitHub](https://github.com/osmnnuri) · osmannuriyasar57@gmail.com
