@@ -18,22 +18,15 @@
 <p align="center">
   <a href="https://dersasistanim.vercel.app"><b>▶ Uygulamayı aç</b></a>
   &nbsp;·&nbsp;
-  <a href="https://osmnnuri.github.io"><b>Portfolyomda incele</b></a>
+  <a href="https://osmnnuri.github.io"><b>Güncel görseller için siteme göz at</b></a>
 </p>
 
-<p align="center">
-  <img src="ekranlar/01-ana-sayfa.webp" width="200" alt="Ana sayfa ve maskot asistan">
-  <img src="ekranlar/04-akilli-program.webp" width="200" alt="Akıllı program">
-  <img src="ekranlar/12-yks-puan.webp" width="200" alt="YKS puan hesaplayıcı">
-  <img src="ekranlar/15-ogretmen-paneli.webp" width="200" alt="Öğretmen paneli">
-</p>
 
 ---
 
 ## İçindekiler
 
 - [Neden?](#neden)
-- [Ekran görüntüleri](#ekran-görüntüleri)
 - [Hesap türleri](#hesap-türleri)
 - [Özellikler](#özellikler)
 - [Lise ve YKS](#lise-ve-yks)
@@ -59,20 +52,6 @@
 - 📕 Unutulmasın diye aralıklarla hatırlatan, fotoğraflı **yanlış defteri**
 - 🎯 Lisede **YKS sayacı, puan hesaplayıcı, deneme ve konu takibi**
 - 👩‍🏫 **Öğretmen** ödev ve duyuru verir, 👪 **veli** çocuğunun raporunu görür
-
-## Ekran görüntüleri
-
-| Ana sayfa | Öğretmenden | Haftalık plan | Akıllı program |
-|---|---|---|---|
-| <img src="ekranlar/01-ana-sayfa.webp" width="200"> | <img src="ekranlar/02-ogretmenden.webp" width="200"> | <img src="ekranlar/03-haftalik-plan.webp" width="200"> | <img src="ekranlar/04-akilli-program.webp" width="200"> |
-| **Ders programı** | **Kronometre** | **Yanlış defteri** | **Gelişim** |
-| <img src="ekranlar/05-ders-programi.webp" width="200"> | <img src="ekranlar/06-kronometre.webp" width="200"> | <img src="ekranlar/07-yanlis-defteri.webp" width="200"> | <img src="ekranlar/08-gelisim.webp" width="200"> |
-| **YKS sayacı** | **YKS puan hesaplama** | **Denemelerim** | **Konu takibi** |
-| <img src="ekranlar/11-yks-sayaci.webp" width="200"> | <img src="ekranlar/12-yks-puan.webp" width="200"> | <img src="ekranlar/13-denemeler.webp" width="200"> | <img src="ekranlar/14-konu-takibi.webp" width="200"> |
-| **Öğretmen paneli** | **Öğrenci raporu** | **Maskot ve tema** | **Koyu tema** |
-| <img src="ekranlar/15-ogretmen-paneli.webp" width="200"> | <img src="ekranlar/16-veli-raporu.webp" width="200"> | <img src="ekranlar/09-maskot-tema.webp" width="200"> | <img src="ekranlar/10-koyu-tema.webp" width="200"> |
-
-<sub>Görüntüler uygulamanın güncel sürümünden, örnek verilerle alınmıştır; öğrenci adları kurgusaldır.</sub>
 
 ## Hesap türleri
 
