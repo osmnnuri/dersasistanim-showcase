@@ -2,22 +2,30 @@
 
 <p align="center">
   <b>Ders çalışmayı planlayan, takip eden ve eğlenceli hale getiren maskotlu çalışma asistanı.</b><br>
-  Ortaokul ve LGS öğrencileri için · İnternetsiz çalışır · Tüm veri cihazda kalır
+  İlkokul, ortaokul (LGS) ve lise (YKS) öğrencileri için · Öğretmen ve veli hesaplarıyla · İnternetsiz çalışır
 </p>
 
 <p align="center">
   <a href="https://dersasistanim.vercel.app"><img src="https://img.shields.io/badge/canlı-dersasistanim.vercel.app-26A69A?style=flat&logo=vercel" alt="Canlı"></a>
   <img src="https://img.shields.io/badge/Flutter-Web%20%2F%20PWA-02569B?style=flat&logo=flutter" alt="Flutter">
   <img src="https://img.shields.io/badge/Dart-3-0175C2?style=flat&logo=dart" alt="Dart">
+  <img src="https://img.shields.io/badge/Supabase-PostgreSQL-3FCF8E?style=flat&logo=supabase" alt="Supabase">
   <img src="https://img.shields.io/badge/çevrimdışı-✓-43A047?style=flat" alt="Çevrimdışı">
-  <img src="https://img.shields.io/badge/test-315%20geçiyor-43A047?style=flat" alt="Testler">
+  <img src="https://img.shields.io/badge/test-454%20geçiyor-43A047?style=flat" alt="Testler">
   <img src="https://img.shields.io/badge/dil-Türkçe-E30A17?style=flat" alt="Türkçe">
 </p>
 
 <p align="center">
   <a href="https://dersasistanim.vercel.app"><b>▶ Uygulamayı aç</b></a>
   &nbsp;·&nbsp;
-  <a href="https://osmnnuri.github.io"><b>Güncel görseller için siteme göz at</b></a>
+  <a href="https://osmnnuri.github.io"><b>Portfolyomda incele</b></a>
+</p>
+
+<p align="center">
+  <img src="ekranlar/01-ana-sayfa.webp" width="200" alt="Ana sayfa ve maskot asistan">
+  <img src="ekranlar/04-akilli-program.webp" width="200" alt="Akıllı program">
+  <img src="ekranlar/12-yks-puan.webp" width="200" alt="YKS puan hesaplayıcı">
+  <img src="ekranlar/15-ogretmen-paneli.webp" width="200" alt="Öğretmen paneli">
 </p>
 
 ---
@@ -25,12 +33,15 @@
 ## İçindekiler
 
 - [Neden?](#neden)
+- [Ekran görüntüleri](#ekran-görüntüleri)
+- [Hesap türleri](#hesap-türleri)
 - [Özellikler](#özellikler)
+- [Lise ve YKS](#lise-ve-yks)
 - [Maskot asistan nasıl düşünür?](#maskot-asistan-nasıl-düşünür)
 - [Akıllı program](#akıllı-program)
 - [Bildirimler](#bildirimler)
 - [Mimari](#mimari)
-- [Gizlilik ve veri](#gizlilik-ve-veri)
+- [Gizlilik ve KVKK](#gizlilik-ve-kvkk)
 - [Kullanılan teknolojiler](#kullanılan-teknolojiler)
 - [Kalite](#kalite)
 - [Yol haritası](#yol-haritası)
@@ -40,15 +51,38 @@
 
 ## Neden?
 
-Ortaöğretim öğrencileri için ders çalışmanın en zor kısmı çoğu zaman **başlamak** ve **devam ettirmektir**. DersAsistanım baskı kurmadan, küçük adımlarla çalışmaya yönlendirir:
+Öğrenciler için ders çalışmanın en zor kısmı çoğu zaman **başlamak** ve **devam ettirmektir**. Öğretmen ve veli ise öğrencinin evde ne kadar çalıştığını göremez. DersAsistanım baskı kurmadan, küçük adımlarla çalışmaya yönlendirir ve öğretmenle veliyi aynı tabloya baktırır:
 
-- 🐱 Öğrenciyle konuşan, ruh haline göre değişen bir **maskot arkadaş**
-- 🗓️ Okul ders programına göre kendiliğinden hazırlanan **haftalık plan**
+- 🐱 Öğrenciyle konuşan, ruh haline göre değişen bir **maskot arkadaş** (8 maskot)
+- 🗓️ Okul ve koçluk ders programına göre kendiliğinden hazırlanan **haftalık plan**
 - ⏱️ Tek dokunuşla başlayan **çalışma kronometresi**
-- 📕 Unutulmasın diye aralıklarla hatırlatan **yanlış defteri**
-- 📈 Gelişimi gösteren sade **grafikler**
+- 📕 Unutulmasın diye aralıklarla hatırlatan, fotoğraflı **yanlış defteri**
+- 🎯 Lisede **YKS sayacı, puan hesaplayıcı, deneme ve konu takibi**
+- 👩‍🏫 **Öğretmen** ödev ve duyuru verir, 👪 **veli** çocuğunun raporunu görür
 
-Hesap açmak, internet ya da ücret gerekmez.
+## Ekran görüntüleri
+
+| Ana sayfa | Öğretmenden | Haftalık plan | Akıllı program |
+|---|---|---|---|
+| <img src="ekranlar/01-ana-sayfa.webp" width="200"> | <img src="ekranlar/02-ogretmenden.webp" width="200"> | <img src="ekranlar/03-haftalik-plan.webp" width="200"> | <img src="ekranlar/04-akilli-program.webp" width="200"> |
+| **Ders programı** | **Kronometre** | **Yanlış defteri** | **Gelişim** |
+| <img src="ekranlar/05-ders-programi.webp" width="200"> | <img src="ekranlar/06-kronometre.webp" width="200"> | <img src="ekranlar/07-yanlis-defteri.webp" width="200"> | <img src="ekranlar/08-gelisim.webp" width="200"> |
+| **YKS sayacı** | **YKS puan hesaplama** | **Denemelerim** | **Konu takibi** |
+| <img src="ekranlar/11-yks-sayaci.webp" width="200"> | <img src="ekranlar/12-yks-puan.webp" width="200"> | <img src="ekranlar/13-denemeler.webp" width="200"> | <img src="ekranlar/14-konu-takibi.webp" width="200"> |
+| **Öğretmen paneli** | **Öğrenci raporu** | **Maskot ve tema** | **Koyu tema** |
+| <img src="ekranlar/15-ogretmen-paneli.webp" width="200"> | <img src="ekranlar/16-veli-raporu.webp" width="200"> | <img src="ekranlar/09-maskot-tema.webp" width="200"> | <img src="ekranlar/10-koyu-tema.webp" width="200"> |
+
+<sub>Görüntüler uygulamanın güncel sürümünden, örnek verilerle alınmıştır; öğrenci adları kurgusaldır.</sub>
+
+## Hesap türleri
+
+| Rol | Nasıl açılır | Ne yapar |
+|---|---|---|
+| 🎒 **Öğrenci** | Kendisi kaydolur (ilkokul / ortaokul / lise) | Plan, kronometre, soru kaydı, yanlış defteri, gelişim; lisede YKS bölümü |
+| 👩‍🏫 **Öğretmen** | Okul yöneticisi yönetim panelinden açar | 6 haneli öğretmen koduyla bağlanan öğrencilerin raporu, ödev ve duyuru |
+| 👪 **Veli** | Kendisi kaydolur | Öğrencinin verdiği 6 haneli veli koduyla bağlanır; çocuğun raporunu salt okunur görür |
+
+Bir öğrencinin aynı anda bir öğretmeni ve birden çok velisi olabilir. Öğretmen ve veli raporunda çalışmalar, plan, yanlış defteri, okul ve koçluk ders programları, ödevler ve (lisede) YKS bölümü yer alır.
 
 ## Özellikler
 
@@ -57,25 +91,27 @@ Hesap açmak, internet ya da ücret gerekmez.
 | 🏠 | **Ana sayfa asistanı** | Günün önerisi, hızlı mesajlar ("10 dk çalış", "Gelişiyor muyum?", "Zorlanıyorum"…) ve serbest yazı kutusu. Bugünkü süre, görev ve seri kutucukları. |
 | 😊 | **Ruh hali** | "İyi / İdare eder / Yorgun / İsteksiz". İsteksiz günlerde asistan büyük hedefler yerine 3 dakikalık ısınma önerir. |
 | 🗓️ | **Haftalık plan** | Görev ekleme, tek dokunuşla tamamlama, erteleme, hafifletme, gün seçme. |
-| 📋 | **9 hazır program** | Hafif, Dengeli, Okul sonrası rutini, LGS hazırlık, Sayısal, Sözel, Hafta sonu yoğun, Tekrar haftası, Yazılı haftası. Haftalık önizlemeli. |
-| 📚 | **Derslerim** | Seçmeli dahil kendi derslerini ekleme ve gün gün okul ders programı. |
+| 📋 | **12 hazır program** | Hafif, Dengeli, LGS hazırlık, Sayısal/Sözel ağırlıklı, Tekrar haftası, Yazılı haftası… lisede YKS dengeli, TYT odaklı, AYT sayısal. Haftalık önizlemeli. |
+| 📚 | **Derslerim ve programlar** | Seçmeliler dahil kendi derslerini ekleme; **okul** ve **koçluk** ders programını tablo olarak düzenleme. |
 | ✨ | **Akıllı program** | Ders programına bakıp tekrar, hazırlık ve soru çözümü görevlerini yerleştirir. |
-| ⏱️ | **Kronometre** | Ders seç ve başla. 5/10/15/25 dk hedefler, ilerleme halkası, duraklat, ders değiştir. Ekran açık kalır. |
-| ✏️ | **Soru kaydı** | Doğru/yanlış/boş kaydı. İsteğe bağlı **LGS neti** (doğru − yanlış ÷ 3). |
-| 📕 | **Yanlış defteri** | Fotoğraflı soru kaydı ve **aralıklı tekrar**: 2 gün → 3 → 7 → 14 gün. |
-| 📈 | **Gelişim** | Haftalık süre, oturum, soru ve doğruluk özeti. Ders bazında süre ve 6 haftalık doğruluk grafikleri. |
+| ⏱️ | **Kronometre** | Ders seç ve başla. Hedef süreler, ilerleme halkası, duraklat, ders değiştir. Ekran açık kalır. |
+| ✏️ | **Soru kaydı** | Doğru/yanlış/boş kaydı; LGS ve YKS net kuralı. |
+| 📕 | **Yanlış defteri** | Fotoğraflı soru kaydı (buluta eşitlenir) ve **aralıklı tekrar**: 2 gün → 3 → 7 → 14 gün. |
+| 📈 | **Gelişim** | Haftalık süre, oturum, soru ve doğruluk özeti; ders bazında süre ve 6 haftalık doğruluk grafikleri. |
+| 📨 | **Öğretmenden** | Öğretmenin duyuruları ve ödevleri ana sayfada; ödev tamamlandı olarak işaretlenir. |
+| 🎨 | **Kişiselleştirme** | 8 maskot (Pamuk, Fındık, Bilge, Robo, Rex, Kral, Zeynep, Emir) ve ikisi koyu 10 renk teması. |
 | 🔔 | **Maskot bildirimleri** | Çalışmaya çağıran ve uzun süre girilmeyince "Neredesin?" diye soran nazik hatırlatmalar. |
-| 🎓 | **Uygulama turu** | İlk açılışta gerçek ekran öğelerini vurgulayan 8 adımlık tanıtım. |
-| 💾 | **Yedekleme** | Tek dosyaya yedek alma ve doğrulamalı geri yükleme. |
+| 🎓 | **Uygulama turu** | İlk açılışta gerçek ekran öğelerini vurgulayan tanıtım. |
 | 🤍 | **Baskı yapma modu** | Doğruluk grafiklerini varsayılan olarak gizler. |
 
-### Maskotlar
+## Lise ve YKS
 
-| Pamuk 🐱 | Fındık 🐶 | Bilge 🦉 |
-|---|---|---|
-| *"Miyav! Patilerim hazır, 10 dakika çalışalım mı?"* | *"Hav! Kuyruğumu sallıyorum, hadi biraz ders çalışalım!"* | *"Huu! Bilgelik küçük adımlarla gelir. 10 dakika?"* |
+Öğrenci lise düzeyini seçince dersler ve arayüz değişir:
 
-Her maskotun 5 ruh hali (boşta, mutlu, düşünceli, cesaretlendiren, uykulu) ve kendine özgü cümleleri vardır.
+- ⏳ **YKS geri sayımı**: sınava kalan gün ve hafta ana sayfada.
+- 🧮 **Puan hesaplayıcı**: TYT ve AYT netlerinden ham puan; SAY / EA / SÖZ / DİL alanı ve diploma notundan OBP katkısı.
+- 📝 **Denemelerim**: TYT/AYT deneme kaydı, son net, değişim, en iyi ve son 5 ortalaması; net gelişimi grafiği.
+- ✅ **Konu takibi**: ders ders TYT/AYT konuları; "Başlamadım / Tekrar lazım / Bitti" durumu ve genel yüzde.
 
 ## Maskot asistan nasıl düşünür?
 
@@ -111,7 +147,7 @@ flowchart TD
 | Cumartesi | Haftada en çok saati olan derslerden **soru çözümü** |
 | Pazar | **Haftalık tekrar** + **pazartesiye hazırlık** |
 
-Süreler derslerin haftalık saatiyle orantılı dağıtılır (10–45 dk). Yoğunluk seçilebilir: **Hafif** (okul günü ~30 dk), **Dengeli** (~50 dk), **Yoğun** (~75 dk). Uygulamadan önce gün gün önizleme gösterilir.
+Süreler derslerin haftalık saatiyle orantılı dağıtılır (10–45 dk). Yoğunluk seçilebilir: **Hafif**, **Dengeli**, **Yoğun**. Uygulamadan önce gün gün önizleme gösterilir. Dershane ya da özel ders için ayrı bir **koçluk ders programı** da tutulur ve raporlarda görünür.
 
 ## Bildirimler
 
@@ -123,13 +159,7 @@ Duolingo tarzı ama nazik. Maskot kendi sesiyle yazar:
 >
 > **Bilge** · Huu huu! 4 günlük serin tehlikede Ela, gel koruyalım.
 
-**Kurallar** (öncelik sırasıyla):
-
-1. 1, 3 ya da 7 gündür girilmediyse → *"Neredesin?"*
-2. Seri varsa ve akşam olduysa → *"Serin tehlikede"*
-3. Tekrarı gelen yanlış sorular varsa → hatırlatma
-4. Plandaki görevler varsa → hatırlatma
-5. Hiçbiri yoksa → genel çalışma çağrısı
+**Kurallar** (öncelik sırasıyla): 1, 3 ya da 7 gündür girilmediyse *"Neredesin?"* → seri varsa ve akşam olduysa *"Serin tehlikede"* → tekrarı gelen yanlışlar → plandaki görevler → genel çalışma çağrısı.
 
 **Sınırlar:** 21:30–08:00 arası sessiz. Günde en fazla bir hatırlatma gider. O gün çalışıldıysa hiç gönderilmez.
 
@@ -138,11 +168,14 @@ Duolingo tarzı ama nazik. Maskot kendi sesiyle yazar:
 ```mermaid
 flowchart LR
     subgraph Cihaz["📱 Cihaz (tarayıcı / ana ekran uygulaması)"]
-        UI[Flutter arayüzü] --> APP[Uygulama durumu<br/>oturum · bildirim denetleyicileri]
-        APP --> ENG[Kural motorları<br/>öneri · niyet · akıllı plan · bildirim · istatistik]
+        UI[Flutter arayüzü] --> APP[Uygulama durumu<br/>hesap · oturum · bildirim]
+        APP --> ENG[Kural motorları<br/>öneri · niyet · akıllı plan · YKS · rapor]
         APP --> DB[(IndexedDB<br/>Sembast)]
-        SW[Servis çalışanı<br/>çevrimdışı önbellek · güncelleme · bildirim]
+        DB <--> SYNC[Eşitleme servisi]
+        SW[Servis çalışanı<br/>çevrimdışı önbellek · güncelleme]
     end
+    SYNC <--> SB[(Supabase<br/>PostgreSQL · RLS · Auth · Storage)]
+    ADMIN[Yönetim paneli<br/>/admin] --> SB
     CDN[Vercel<br/>statik dosyalar] -- ilk kurulum ve güncellemeler --> SW
 ```
 
@@ -150,26 +183,31 @@ Kod katmanları:
 
 ```
 core/      gün hesapları, kimlik üretimi, saat
-data/      veri modelleri ve depolar (9 depo)
-engine/    saf kural motorları: arayüzden bağımsız, birim testli
-app/       uygulama durumu, oturum, asistan eylemleri, bildirimler
+data/      veri modelleri, depolar, hesap ve sınıf arka uçları
+engine/    saf kural motorları: öneri, akıllı plan, YKS puanı, rapor (birim testli)
+sync/      cihaz ↔ Supabase eşitlemesi
+app/       uygulama durumu, hesap, oturum, bildirimler
 platform/  tarayıcıya özel işler (dosya, ekran kilidi, bildirim, fotoğraf)
 mascot/    maskot paketleri (SVG + cümleler)
-ui/        ekranlar
+admin/     okul yöneticisinin öğretmen açtığı yönetim paneli
+ui/        öğrenci, öğretmen ve veli ekranları
 ```
 
-### Çevrimdışı çalışma ve güncelleme
+### Önce çevrimdışı
 
-- İlk açılışta uygulamanın tüm dosyaları (emoji fontu dahil) cihaza alınır. Sonraki açılışlar internetsiz çalışır.
-- Yeni sürüm arka planda iner ve kullanıcıyı rahatsız etmeden bekler. Üstte **"Yeni sürüm hazır → Güncelle"** uyarısı çıkar. Dokununca sayfa bir kez yenilenir ve eski dosyalar temizlenir.
-- Emojiler, çevrimdışıyken de görünsün diye uygulamayla birlikte gelen **244 KB'lık bir Noto Color Emoji alt kümesinden** çizilir.
+- Veri önce cihazdaki IndexedDB'ye yazılır; uygulama internet olmadan tam çalışır. Bağlantı gelince değişiklikler Supabase'e eşitlenir.
+- İlk açılışta uygulamanın tüm dosyaları (emoji fontu dahil) cihaza alınır.
+- Yeni sürüm arka planda iner, üstte **"Yeni sürüm hazır → Güncelle"** uyarısı çıkar; dokununca sayfa bir kez yenilenir.
+- Emojiler çevrimdışıyken de görünsün diye uygulamayla gelen **Noto Color Emoji alt kümesinden** çizilir.
 
-## Gizlilik ve veri
+## Gizlilik ve KVKK
 
-- 🔒 **Sunucu yok, hesap yok.** Tüm veri öğrencinin cihazında, tarayıcının içinde (IndexedDB) tutulur.
-- 🚫 Hiçbir veri üçüncü taraflara ya da geliştiriciye gönderilmez. Analitik veya reklam yoktur.
-- 💾 Cihaz değiştirmek için yedek dosyası alınıp yeni cihazda geri yüklenir.
-- 🧭 İleride hesap ve senkronizasyon eklenirse kullanılacak bulut şeması (Postgres/Supabase, satır düzeyi güvenlik) **tasarlandı ama uygulanmadı**. Çocuk verisi olduğu için KVKK, veli onayı ve "verilerimi sil" akışı şart olarak planlandı.
+Uygulama çocuk verisi işlediği için gizlilik baştan tasarlandı:
+
+- 📄 **Aydınlatma metni** giriş ekranından, kayıttan ve Ayarlar'dan açılır; kayıtta **zorunlu onay** alınır ve onaylanan metin sürümü saklanır.
+- 🗑️ **"Hesabımı ve verilerimi sil"**: fotoğraflar depodan, hesap ve tüm bulut verisi veritabanından, cihazdaki veri de tarayıcıdan silinir.
+- 🔐 Veritabanında **satır düzeyi güvenlik (RLS)**: öğrenci yalnızca kendi verisini; öğretmen ve veli yalnızca bağlı oldukları öğrencinin verisini okuyabilir. Veli erişimi salt okunurdur.
+- 🚫 Analitik veya reklam yoktur; veri üçüncü taraflarla paylaşılmaz.
 
 ## Kullanılan teknolojiler
 
@@ -177,7 +215,8 @@ ui/        ekranlar
 |---|---|
 | Arayüz | [Flutter](https://flutter.dev) (Dart 3, Material 3) — web için derlenir |
 | Uygulama türü | Progressive Web App (PWA), özel servis çalışanı |
-| Veritabanı | [Sembast](https://pub.dev/packages/sembast) + IndexedDB |
+| Yerel veri | [Sembast](https://pub.dev/packages/sembast) + IndexedDB |
+| Bulut | [Supabase](https://supabase.com): PostgreSQL, Auth, Storage, satır düzeyi güvenlik, SQL migration'ları |
 | Grafikler | [fl_chart](https://pub.dev/packages/fl_chart) |
 | Maskot çizimleri | SVG + [flutter_svg](https://pub.dev/packages/flutter_svg) |
 | Fotoğraf | [image_picker](https://pub.dev/packages/image_picker) (1280 px'e küçültme) |
@@ -186,22 +225,24 @@ ui/        ekranlar
 
 ## Kalite
 
-- ✅ **315 otomatik test**: kural motorları, veri modelleri, yedekleme, ekran akışları ve servis çalışanı.
+- ✅ **454 otomatik test**: kural motorları, veri modelleri, eşitleme, hesap ve rol akışları, öğretmen/veli ekranları, KVKK ve servis çalışanı.
 - ✅ `flutter analyze` temiz.
 - ✅ Her özellik ayrı dalda geliştirilir, PR ile birleştirilir ve yayından önce canlı ortamda doğrulanır.
-- ✅ Küçük ekran testleri: tanıtım turu 375×667 (iPhone SE) ekranda da sorunsuz.
+- ✅ Küçük ekran testleri: 375×667 (iPhone SE) ekranda da sorunsuz.
 
 ## Yol haritası
 
 - [x] Maskotlu asistan, plan, kronometre, yanlış defteri, gelişim
 - [x] Hazır programlar ve ders programına göre akıllı program
 - [x] Çevrimdışı çalışma ve güvenli güncelleme
-- [x] İlk açılış turu
 - [x] Maskot bildirimleri (cihazda)
-- [x] Bulut veri şeması tasarımı
+- [x] Hesap ve cihazlar arası eşitleme (Supabase)
+- [x] Öğretmen hesabı: rapor, ödev, duyuru; yönetim paneli
+- [x] Veli hesabı: çocuğun raporunu salt okunur görme
+- [x] Lise ve YKS: sayaç, puan hesaplayıcı, deneme ve konu takibi
+- [x] Koçluk ders programı
+- [x] KVKK: aydınlatma metni, onay, hesap ve veri silme
 - [ ] Uygulama kapalıyken bildirim (Web Push + zamanlanmış sunucu işi)
-- [ ] Hesap ve cihazlar arası senkronizasyon
-- [ ] Veli görünümü (haftalık özet)
 - [ ] Android / iOS mağaza uygulaması
 
 ## Kaynak kod
